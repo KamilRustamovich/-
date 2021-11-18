@@ -1,0 +1,29 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dompurify": "^2.3.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "jsdom": "^18.0.0",
+    "json": "^11.0.0",
+    "locus": "^2.0.4",
+    "marked": "^3.0.8",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.12",
+    "slugify": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

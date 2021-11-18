@@ -1,0 +1,41 @@
+<div class="form-group">
+    <label for='fullName'>ФИО</label>
+    <input required value="<%= student.fullName %>" type="text" name="fullName" id='fullName' class="form-control">
+</div>
+<br>
+<div class="form-group">
+    <label for='group'>Группа</label>
+    <input required value="<%= student.group %>" type="text" name="group" id='group' class="form-control">
+</div>
+<br>
+<div class="form-group">
+    <label for='profession'>Направление</label>
+    <input required value="<%= student.profession %>" type="text" name="profession" id='profession' class="form-control">
+</div>
+<br>
+<div class="form-group">
+    <label for='department'>Кафедра</label>
+    <input required value="<%= student.department %>" type="text" name="department" id='department' class="form-control">
+</div>
+<br>
+<!-- <label for="faculty">Выберите факультет:</label>
+<select name="faculty" id="faculty">
+  <option value="volvo">Volvo<%= student.faculty %></option>
+  <option value="saab">Saab<%= student.faculty %></option>
+  <option value="mercedes">Mercedes<%= student.faculty %></option>
+  <option value="audi">Audi<%= student.faculty %></option>
+</select>  -->
+<div class="form-group">
+    <label for='faculty'>Факултет</label>
+    <input required value="<%= student.faculty %>" type="text" name="faculty" id='faculty' class="form-control">
+</div>
+<div class="form-group">
+    <label for='graduationDate'>Дата выпуска</label>
+    <input required value="<%= student.graduationDate %>" type="date" name="graduationDate" id='graduationDate' class="form-control">
+</div>
+<br>
+<br>
+
+<br>
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
